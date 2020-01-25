@@ -13,7 +13,6 @@ from collections import Counter
 
 def write():
     udisp.title_awesome("Data Visualizations")
-    geolocator = Nominatim()
     st.write("Strange Fruits")
     
     keys = {

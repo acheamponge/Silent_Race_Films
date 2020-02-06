@@ -4,15 +4,20 @@ import utils.display as udisp
 
 import src.pages.home
 import src.pages.about
-import src.pages.analytics
-import src.pages.visualization
+import src.pages.films
+import src.pages.companies
 import src.pages.resources
+import src.pages.people
+import src.pages.sources    
+
 
 MENU = {
     "Home" : src.pages.home,
-    "Data Analytics" : src.pages.analytics,
-    "Data Visualizations" : src.pages.visualization,
-    "Resources" : src.pages.resources,
+    "Films" : src.pages.films,
+    "Companies" : src.pages.companies,
+    "People" : src.pages.people,
+    "Sources" : src.pages.sources,
+    "Resources": src.pages.resources,
     "About" : src.pages.about
 }
 
@@ -29,27 +34,20 @@ def main():
     st.sidebar.info(
         "This an open source project and please feel free to contribute"
         +"\n"+
-        "[Github](https://github.com/acheamponge/historical_american_lynchings)"
+        "[Github](https://github.com/acheamponge/Silent_Race_Films)"
         +"\n"+
         "\n"+
-        "[Google Docs](https://lnkd.in/eZgNRy6) "
+        "[Google Docs](https://docs.google.com/document/d/1kbcVVAPeMC7yXmZHdzHuTVLiXklKUrcpf7z4I8LMueE/edit) "
     )
     
       
     st.sidebar.title("About")
     st.sidebar.info(
         """
-        This purpose of this app is to create an interactive platform to analyze the dataset of lynchings that happened in America."""
+        This purpose of this app is analyze the dataset curated by faculty and students at UCLA on Early African American Films."""
     )
     
-    st.sidebar.title("Special Thanks")
-    st.sidebar.info(
-        "Huge thank you to MarcSkovMadsen and Avkash whose use of Streamlit helped make the webapp for this project"
-        +"\n"+
-        "[MarcSkovMadsen](https://github.com/MarcSkovMadsen/awesome-streamlit/)"
-        +"\n"+"\n"+
-        "[Avkash](https://github.com/Avkash/demoapps) "
-        )
+
 
 if __name__ == "__main__":
     main()

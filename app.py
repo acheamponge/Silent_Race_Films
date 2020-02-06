@@ -3,7 +3,6 @@ import streamlit as st
 import utils.display as udisp
 
 import src.pages.home
-import src.pages.about
 import src.pages.films
 import src.pages.companies
 import src.pages.resources
@@ -17,8 +16,7 @@ MENU = {
     "Companies" : src.pages.companies,
     "People" : src.pages.people,
     "Sources" : src.pages.sources,
-    "Resources": src.pages.resources,
-    "About" : src.pages.about
+    "Resources": src.pages.resources
 }
 
 def main():
@@ -44,7 +42,7 @@ def main():
     st.sidebar.title("About")
     st.sidebar.info(
         """
-        This purpose of this app is analyze the dataset curated by faculty and students at UCLA on Early African American Films."""
+        This purpose of this app is to analyze and visualize the dataset curated by faculty and students at UCLA on Early African American Films."""
     )
     
 

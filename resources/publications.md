@@ -1,15 +1,4 @@
 
-## EJI
+## UCLA Humanities Website
 
-- LYNCHING IN AMERICA: https://lynchinginamerica.eji.org/report-landing
-
-## NAACP
-- HISTORY OF LYNCHINGS: https://www.naacp.org/history-of-lynchings/
-
-## UMKC Law
-- http://law2.umkc.edu/faculty/projects/ftrials/shipp/lynchingyear.html
-
-
-
-
- 
+- EARLY AFRICAN AMERICAN FILM - Reconstructing the History of Silent Race Films, 1909-1930 : http://dhbasecamp.humanities.ucla.edu/afamfilm/about-the-project/

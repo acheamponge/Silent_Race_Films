@@ -21,8 +21,3 @@ def write():
         
     df = pd.read_csv(pick, encoding='utf8')
     st.dataframe(df)
-    image = Image.open('./img/12.jpg')
-    st.image(image, use_column_width=True)
-    
-    image = Image.open('./img/9.jpeg')
-    st.image(image, use_column_width=True)
